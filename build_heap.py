@@ -13,7 +13,7 @@ def heapifying(data, n, i, swaps):
     if small != i:
         swaps.append((i,small))
         data[i], data[small] = data[small], data[i]
-        heapifying(data, n, i, swaps)
+        heapifying(data, n, small, swaps)
     
 def build_heap(data):
     swaps = []
