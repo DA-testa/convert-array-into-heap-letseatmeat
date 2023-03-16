@@ -39,8 +39,8 @@ def main():
     if 'F' in text:
         file_in = input()
         with open("tests/" + file_in, 'r') as f:
-            n = int(input())
-            data = list(map(int, f.readLIne().split()))
+            n = int(f.readLine())
+            data = list(map(int, f.readLine().split()))
     # checks if lenght of data is the same as the said lenght
     assert len(data) == n
 
