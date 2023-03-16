@@ -5,9 +5,9 @@ def heapifying(data, n, i, swaps):
     r = 2 * i + 2
     
     small = i
-    if l<n and data[l] < data[small]
+    if l<n and data[l] < data[small]:
         small = l
-    if r<n and data[r] < data[small]
+    if r<n and data[r] < data[small]:
         small = r
     
     if small != i:
@@ -36,7 +36,7 @@ def main():
     # input from keyboard
         n = int(input())
         data = list(map(int, input().split()))
-    if 'F' in text
+    if 'F' in text:
         file_in = input()
         with open("tests/" + file_in, 'r') as f:
             n = int(input())
