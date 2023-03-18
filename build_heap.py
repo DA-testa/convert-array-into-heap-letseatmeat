@@ -1,5 +1,5 @@
 # python3
-
+# Kirils Aleksejevs 221RDB139
 def heapifying(data, n, i, swaps):
     l = 2 * i + 1
     r = 2 * i + 2
